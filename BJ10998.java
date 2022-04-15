@@ -6,5 +6,6 @@ public class BJ10998 {
         int A = scanner.nextInt();
         int B = scanner.nextInt();
         System.out.println(A * B);
+
     }
 }
