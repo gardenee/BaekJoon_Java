@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BJ2750_내장함수 {
+public class BJ2750_builtInFunction {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
