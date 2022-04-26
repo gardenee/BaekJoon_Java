@@ -13,10 +13,10 @@ public class BJ01316 {
 
             int flag = 1;
             for (int i = 1; i < word.length(); i++) {
-                String current = word.substring(i, i+1);
-                String prev = word.substring(i-1, i);
-                if (!prev.equals(current)) {
-                    if (history.contains(current)) {
+                char current = word.charAt(i);
+                char prev = word.charAt(i-1);
+                if (prev != current) {
+                    if (history.contains(String.valueOf(current))) {
                         flag = 0;
                         break;
                     } else {

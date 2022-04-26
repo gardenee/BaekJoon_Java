@@ -8,7 +8,7 @@ public class BJ02675 {
             String line = sc.nextLine().trim();
             for (int j = 0; j < line.length(); j++) {
                 for (int k = 0; k < N; k++) {
-                    System.out.print(line.substring(j, j+1));
+                    System.out.print(line.charAt(j));
                 }
             }
             System.out.println();

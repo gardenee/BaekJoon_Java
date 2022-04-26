@@ -8,7 +8,7 @@ public class BJ05622 {
         int ans = 0;
 
         for (int i = 0; i < Line.length(); i++) {
-            ans += phoneRef[ABC.indexOf(Line.substring(i, i+1))] + 1;
+            ans += phoneRef[ABC.indexOf(Line.charAt(i))] + 1;
         }
         System.out.println(ans);
     }

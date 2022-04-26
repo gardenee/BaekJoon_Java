@@ -12,8 +12,8 @@ public class BJ10809 {
         String ref = "abcdefghijklmnopqrstuvwxyz";
 
         for (int i = 0; i < line.length(); i++) {
-            if (answer[ref.indexOf(line.substring(i, i+1))] == -1) {
-                answer[ref.indexOf(line.substring(i, i+1))] = i;
+            if (answer[ref.indexOf(line.charAt(i))] == -1) {
+                answer[ref.indexOf(line.charAt(i))] = i;
             }
         }
 

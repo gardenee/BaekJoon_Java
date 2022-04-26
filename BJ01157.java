@@ -13,7 +13,7 @@ public class BJ01157 {
         int max = 0;
         int index = -1;
         for (int i = 0; i < word.length(); i++) {
-            int curr = ABC.indexOf(word.substring(i, i+1));
+            int curr = ABC.indexOf(word.charAt(i));
             ref[curr] += 1;
             if (ref[curr] > max) {
                 count = 1;
@@ -27,7 +27,7 @@ public class BJ01157 {
         if (count > 1) {
             System.out.println("?");
         } else {
-            System.out.println(ABC.substring(index, index+1));
+            System.out.println(ABC.charAt(index));
         }
     }
 }
