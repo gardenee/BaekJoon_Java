@@ -1,6 +1,6 @@
-import java.util.*;
+import java.util.Scanner;
 
-public class BJ2748 {
+public class BJ02748 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

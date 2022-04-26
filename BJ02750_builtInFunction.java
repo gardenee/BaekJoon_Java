@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.Scanner;
 
-public class BJ2750_builtInFunction {
+public class BJ02750_builtInFunction {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
