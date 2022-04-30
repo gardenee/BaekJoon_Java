@@ -18,10 +18,12 @@ public class BJ01507 {
             count++;
             if (a % 2 == 1 && a + 1 == b) {
                 break;
+
             } else if (N % 2 == 0) {
                 a = (a+1)/2;
                 b = (b+1)/2;
                 N /= 2;
+
             } else {
                 a = (a+1)/2;
                 b = (b+1)/2;
