@@ -6,6 +6,7 @@ public class BJ01969 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        String[] ord = {"A", "C", "G", "T"};
 
         int N = sc.nextInt();
         int M = sc.nextInt();
@@ -15,8 +16,6 @@ public class BJ01969 {
         for (int i = 0; i < M; i++) {
             cnt.put(i, new int[] {0, 0, 0, 0});
         }
-
-        String[] ord = {"A", "C", "G", "T"};
 
         for (int i = 0; i < N; i++) {
             String DNA = sc.nextLine();
