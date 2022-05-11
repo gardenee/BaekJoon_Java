@@ -24,12 +24,12 @@ public class BJ01713 {
             if (votes.get(curr) == 0) { // 그림이 전시중이 아닌 경우
                 if (display.size() == N) { // 이미 전시품이 꽉 참
                     int min = 0;
-                    for (int j = 0; j < N; j++) { // 가장 투표수 적은 경우 찾기
+                    for (int j = 0; j < N; j++) { // 가장 투표수 적은 경우 찾기(동점이면 앞에 거)
                         if (votes.get(display.get(j)) < votes.get(display.get(min))) {
                             min = j;
                         }
                     }
-                    votes.put(display.get(min), 0);
+                    votes.put(display.get(min), 0); // 쫓겨나는 그림은 투표수 0
                     display.remove(min);
                 }
                 display.add(curr); // 전시장 맨 뒤에 지금 그림 전시

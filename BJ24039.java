@@ -17,6 +17,7 @@ public class BJ24039 {
                 for (int j = 2 * i; j < num.length; j += i) {
                     num[j] = -1;
                 }
+
                 if (temp * i > N) {
                     System.out.println(temp * i);
                     break;
