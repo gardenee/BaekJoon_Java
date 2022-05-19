@@ -14,7 +14,7 @@ public class BJ05587 {
         }
         Collections.sort(SG); // SG 정렬
 
-        for (int i = 1; i <= n * 2; i++) {  // GS 리스트에 상근이가 안가진 카드 담기(자동정렬)
+        for (int i = 1; i <= n * 2; i++) {  // GS 리스트에 상근이가 안가진 카드 담기(자동 정렬)
             if (!SG.contains(i)) {
                 GS.add(i);
             }
