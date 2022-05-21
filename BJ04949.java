@@ -22,6 +22,7 @@ public class BJ04949 {
                     case "(":
                         stack.push(a);
                         break;
+
                     case "]":
                         if (stack.empty()) {
                             ans = false;
@@ -32,6 +33,7 @@ public class BJ04949 {
                             ans = false;
                         }
                         break;
+
                     case ")":
                         if (stack.empty()) {
                             ans = false;
@@ -51,11 +53,10 @@ public class BJ04949 {
             }
 
             if (ans && stack.empty()) {
-                bw.write("yes");
+                bw.write("yes\n");
             } else {
-                bw.write("no");
+                bw.write("no\n");
             }
-            bw.newLine();
         }
         bw.flush();
         bw.close();
