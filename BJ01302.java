@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class Bj01302 {
+public class BJ01302 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
