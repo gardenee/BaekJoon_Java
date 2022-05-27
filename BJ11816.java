@@ -9,7 +9,6 @@ public class BJ11816 {
         String ans = "<";
 
         Deque<Integer> queue = new ArrayDeque<>();
-        Deque<Integer> alive = new ArrayDeque<>();
         for (int i = 0; i < N; i++) {
             queue.addLast(i+1);
         }
@@ -22,11 +21,7 @@ public class BJ11816 {
                 ans += curr + ", ";
                 i = 0;
             } else {
-                alive.addLast(curr);
-            }
-            if (queue.isEmpty()) {
-                queue = alive;
-                alive = new ArrayDeque<>();
+                queue.addLast(curr);
             }
         }
         System.out.println(ans.substring(0, ans.length() - 2) + ">");
