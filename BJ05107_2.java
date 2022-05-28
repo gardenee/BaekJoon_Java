@@ -10,7 +10,6 @@ public class BJ05107_2 {
         while (true) {
             int N = sc.nextInt();
             if (N == 0) break;
-            int ans = 0;
 
             Map<String, String> map = new HashMap<>();
 
@@ -18,10 +17,10 @@ public class BJ05107_2 {
                 map.put(sc.next(), sc.next());
             }
 
-            List <String> keys = new ArrayList<>(map.keySet());
-            List <String> checked = new ArrayList<>();
+            int ans = 0;
+            Set <String> checked = new HashSet<>();
 
-            for (String head: keys) {
+            for (String head: map.keySet()) {
                 String  curr = "";
                 if (!checked.contains(head)) {
                     checked.add(head);
