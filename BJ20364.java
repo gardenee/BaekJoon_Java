@@ -16,11 +16,11 @@ public class BJ20364 {
 
         for (int i=1; i<=Q; i++) {
             int curr = Integer.parseInt(br.readLine()); // 지금 위치
-            int recent = curr+1; // 가장 최근에 방문한 주인 있는 땅
+            int recent = -1; // 가장 최근에 방문한 주인 있는 땅 저장할 변수
             recent = search(curr, recent, occupied);
-            if (recent==curr+1) { // 주인있는 땅을 안밟았다면
-                occupied.add(curr); // 내 땅 이제부터 주인 있음
-                recent = 0;
+            if (recent==-1) { // 주인있는 땅을 안밟았다면
+                occupied.add(curr); // 입주하기
+                recent = 0; // 0 출력해야 하니까
             }
             bw.write(recent + "\n");
         }
@@ -30,7 +30,7 @@ public class BJ20364 {
 
     public static int search(int curr, int recent, Set<Integer> visited) { // 내가 원하는 땅부터 부모로 거슬러 올라가며 탐색
         if (curr == 0) return recent; // root인 1번 땅까지 다 살펴봄
-        if (visited.contains(curr)) recent = curr;
-        return search(curr/2, recent, visited);
+        if (visited.contains(curr)) recent = curr; // 가장 최근 반문한 땅으로 업데이트
+        return search(curr/2, recent, visited); // 부모 땅 주인 있나 살펴보기
     }
 }
