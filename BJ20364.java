@@ -15,7 +15,7 @@ public class BJ20364 {
         Set<Integer> occupied = new HashSet<>(); // 주인 있는 땅 저장
 
         for (int i=1; i<=Q; i++) {
-            int curr = Integer.parseInt(br.readLine()); // 지금 위치
+            int curr = Integer.parseInt(br.readLine()); // 지금 찾는 위치
             int recent = -1; // 가장 최근에 방문한 주인 있는 땅 저장할 변수
             recent = search(curr, recent, occupied);
             if (recent==-1) { // 주인있는 땅을 안밟았다면
