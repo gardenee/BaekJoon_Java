@@ -8,8 +8,8 @@ public class BJ11721 {
         char[] ipt = sc.nextLine().toCharArray();
 
         for (int i = 0; i < ipt.length; i++) {
-            if (i != 0 && i % 10 == 0) System.out.println();
-            else System.out.print(ipt[i]);
+            System.out.print(ipt[i]);
+            if (i % 10 == 9) System.out.println();
         }
     }
 }
