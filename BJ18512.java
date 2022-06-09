@@ -13,13 +13,14 @@ public class BJ18512 {
         int Py = sc.nextInt();
         int ans = -1;
 
-        if (X == Y &&  Px != Py && Px/X == Py/Y) {
-
-        } else {
+        if (Px == Py) ans = Px;
+        else {
             List<Integer> listX = new ArrayList<>();
             List<Integer> listY = new ArrayList<>();
+            listX.add(Px);
+            listY.add(Py);
 
-            while (ans == -1) {
+            while (ans == -1 && Px < 10000 && Py < 10000) {
                 Px += X;
                 Py += Y;
                 listX.add(Px);
