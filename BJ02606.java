@@ -24,7 +24,6 @@ public class BJ02606 {
         }
 
         boolean[] visited = new boolean[com+1];
-        Arrays.fill(visited, false);
         visited[1] = true;
 
         int ans = 0;
