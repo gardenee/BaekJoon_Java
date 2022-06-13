@@ -16,10 +16,8 @@ public class BJ02257 {
                 case "C":
                 case "H":
                 case "O":
-                    if (temp != 1) {
-                        ans += atom(curr) * mul * temp;
-                        temp = 1;
-                    } else ans += atom(curr) * mul;
+                    ans += atom(curr) * mul * temp;
+                    temp = 1;
                     break;
                 case ")":
                     stack.addLast(temp);
