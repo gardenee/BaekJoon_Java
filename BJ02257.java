@@ -4,14 +4,14 @@ public class BJ02257 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Deque<String> stack = new ArrayDeque<>(Arrays.asList(sc.nextLine().split("")));
-        Deque<Integer> num = new ArrayDeque<>();
+        Deque<String> compound = new ArrayDeque<>(Arrays.asList(sc.nextLine().split("")));
+        Deque<Integer> stack = new ArrayDeque<>();
         int ans = 0;
         int temp = 1;
         int mul = 1;
 
-        while (!stack.isEmpty()) {
-            String curr = stack.removeLast();
+        while (!compound.isEmpty()) {
+            String curr = compound.removeLast();
             if (curr.equals("C")||curr.equals("H")||curr.equals("O")) {
                 if (temp != 1) {
                     ans += atom(curr) * mul * temp;
@@ -19,11 +19,11 @@ public class BJ02257 {
                 }
                 else ans += atom(curr) * mul;
             } else if (curr.equals(")")) {
-                num.addLast(temp);
+                stack.addLast(temp);
                 mul *= temp;
                 temp = 1;
             } else if (curr.equals("(")) {
-                mul /= num.removeLast();
+                mul /= stack.removeLast();
             } else {
                 temp = Integer.parseInt(curr);
             }
