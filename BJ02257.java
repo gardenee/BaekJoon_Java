@@ -12,20 +12,26 @@ public class BJ02257 {
 
         while (!compound.isEmpty()) {
             String curr = compound.removeLast();
-            if (curr.equals("C")||curr.equals("H")||curr.equals("O")) {
-                if (temp != 1) {
-                    ans += atom(curr) * mul * temp;
+            switch (curr) {
+                case "C":
+                case "H":
+                case "O":
+                    if (temp != 1) {
+                        ans += atom(curr) * mul * temp;
+                        temp = 1;
+                    } else ans += atom(curr) * mul;
+                    break;
+                case ")":
+                    stack.addLast(temp);
+                    mul *= temp;
                     temp = 1;
-                }
-                else ans += atom(curr) * mul;
-            } else if (curr.equals(")")) {
-                stack.addLast(temp);
-                mul *= temp;
-                temp = 1;
-            } else if (curr.equals("(")) {
-                mul /= stack.removeLast();
-            } else {
-                temp = Integer.parseInt(curr);
+                    break;
+                case "(":
+                    mul /= stack.removeLast();
+                    break;
+                default:
+                    temp = Integer.parseInt(curr);
+                    break;
             }
         }
         System.out.println(ans);
