@@ -38,7 +38,7 @@ public class BJ01759 {
 
                 search(L-1, v, c, ipt, answer, bw);
 
-                if (!answer.equals("")) answer = answer.substring(0, answer.length()-1);
+                answer = answer.substring(0, answer.length()-1);
                 if (isVowel(str)) v--;
                 else c--;
                 }
