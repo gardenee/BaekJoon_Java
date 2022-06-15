@@ -32,15 +32,14 @@ public class BJ01759 {
             for (String str: ipt) {
                 if (answer.equals("") || str.charAt(0) > answer.charAt(answer.length()-1)) {
                     answer += str;
+                    if (isVowel(str)) v++;
+                    else c++;
 
-                if (isVowel(str)) v++;
-                else c++;
+                    search(L-1, v, c, ipt, answer, bw);
 
-                search(L-1, v, c, ipt, answer, bw);
-
-                answer = answer.substring(0, answer.length()-1);
-                if (isVowel(str)) v--;
-                else c--;
+                    answer = answer.substring(0, answer.length()-1);
+                    if (isVowel(str)) v--;
+                    else c--;
                 }
             }
         }
