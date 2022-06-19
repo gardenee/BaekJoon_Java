@@ -13,9 +13,6 @@ public class BJ02178 {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
 
-        int[] dy = {1, -1, 0, 0};
-        int[] dx = {0, 0, 1, -1};
-
         int[][] maze = new int[N][M];
         boolean[][] visited = new boolean[N][M];
         visited[0][0] = true;
@@ -34,6 +31,9 @@ public class BJ02178 {
         boolean flag = true;
         curr.add(new int[] {0, 0});
 
+        int[] dy = {1, -1, 0, 0};
+        int[] dx = {0, 0, 1, -1};
+
         while(flag) {
             ans++;
             while(!curr.isEmpty()) {
@@ -41,10 +41,11 @@ public class BJ02178 {
                 for (int i = 0; i < 4; i++) {
                     int y = edge[0]+dy[i];
                     int x = edge[1]+dx[i];
+                    if (y == N-1 && x == M-1) flag = false;
+
                     if (0 <= y && y < N && 0 <= x && x < M && maze[y][x] == 1 && !visited[y][x]) {
                         visited[y][x] = true;
                         next.add(new int[] {y, x});
-                        if (y == N-1 && x == M-1) flag = false;
                     }
                 }
             }
