@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class BJ10216 {
@@ -36,7 +35,6 @@ public class BJ10216 {
                     }
                 }
             }
-            System.out.println(Arrays.toString(parents));
             int answer = 0;
             for (int j = 0; j < N; j++) {
                 if (j == findParent(j)) answer++;
