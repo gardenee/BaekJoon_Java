@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5db80abf-f88e-4d57-a94c-f4cf0f74fcd0" name="변경" comment="220622 스터디17 다시...">
+      <change afterPath="$PROJECT_DIR$/BJ10216.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="28xjO1QzLiV8W0k9R1H0DQ01V1M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.BJ10216">
+    <configuration name="이름이 지정되지 않았습니다" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="BJ01764" />
+      <module name="BaekJoon_Java" />
+      <option name="PROGRAM_PARAMETERS" value="$MAVEN_REPOSITORY$" />
+      <method v="2">
+        <option name="MakeNoErrorCheck" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ01068" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ01068" />
+      <module name="BaekJoon_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ02178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ02178" />
+      <module name="BaekJoon_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ10216" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ10216" />
+      <module name="BaekJoon_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ10986" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ10986" />
+      <module name="BaekJoon_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BJ15989" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BJ15989" />
+      <module name="BaekJoon_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="애플리케이션.이름이 지정되지 않았습니다" />
+      <item itemvalue="애플리케이션.BJ01068" />
+      <item itemvalue="애플리케이션.BJ02178" />
+      <item itemvalue="애플리케이션.BJ10986" />
+      <item itemvalue="애플리케이션.BJ15989" />
+      <item itemvalue="애플리케이션.BJ10216" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.BJ10216" />
+        <item itemvalue="애플리케이션.BJ01068" />
+        <item itemvalue="애플리케이션.BJ15989" />
+        <item itemvalue="애플리케이션.BJ10986" />
+        <item itemvalue="애플리케이션.BJ02178" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="5db80abf-f88e-4d57-a94c-f4cf0f74fcd0" name="변경" comment="" />
+      <created>1652165098867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652165098867</updated>
+    </task>
+    <task id="LOCAL-00039" summary="220531 스터디11">
+      <created>1653926379970</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1653926379970</updated>
+    </task>
+    <task id="LOCAL-00040" summary="220602">
+      <created>1654171774117</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1654171774117</updated>
+    </task>
+    <task id="LOCAL-00041" summary="220602">
+      <created>1654172548552</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1654172548552</updated>
+    </task>
+    <task id="LOCAL-00042" summary="220602">
+      <created>1654173021861</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1654173021861</updated>
+    </task>
+    <task id="LOCAL-00043" summary="220602">
+      <created>1654173434934</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1654173434935</updated>
+    </task>
+    <task id="LOCAL-00044" summary="220602 스터디11">
+      <created>1654177120020</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1654177120020</updated>
+    </task>
+    <task id="LOCAL-00045" summary="220602 스터디11">
+      <created>1654181408364</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1654181408364</updated>
+    </task>
+    <task id="LOCAL-00046" summary="220603 스터디11">
+      <created>1654241603806</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1654241603806</updated>
+    </task>
+    <task id="LOCAL-00047" summary="220603 스터디12">
+      <created>1654261793234</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1654261793234</updated>
+    </task>
+    <task id="LOCAL-00048" summary="220603 스터디12">
+      <created>1654262527808</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1654262527808</updated>
+    </task>
+    <task id="LOCAL-00049" summary="220603 스터디12">
+      <created>1654262859359</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1654262859359</updated>
+    </task>
+    <task id="LOCAL-00050" summary="220603 스터디12">
+      <created>1654266956868</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1654266956869</updated>
+    </task>
+    <task id="LOCAL-00051" summary="220603 스터디12">
+      <created>1654267243564</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1654267243564</updated>
+    </task>
+    <task id="LOCAL-00052" summary="220604 스터디12">
+      <created>1654319291254</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1654319291269</updated>
+    </task>
+    <task id="LOCAL-00053" summary="220608 스터디13">
+      <created>1654698916191</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1654698916192</updated>
+    </task>
+    <task id="LOCAL-00054" summary="220608 스터디13">
+      <created>1654699299898</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1654699299898</updated>
+    </task>
+    <task id="LOCAL-00055" summary="220609 스터디13">
+      <created>1654785534802</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1654785534803</updated>
+    </task>
+    <task id="LOCAL-00056" summary="220610 스터디13">
+      <created>1654789428831</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1654789428831</updated>
+    </task>
+    <task id="LOCAL-00057" summary="220610 스터디13">
+      <created>1654839719720</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1654839719720</updated>
+    </task>
+    <task id="LOCAL-00058" summary="220610">
+      <created>1654849526736</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1654849526736</updated>
+    </task>
+    <task id="LOCAL-00059" summary="220611">
+      <created>1654957614071</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1654957614071</updated>
+    </task>
+    <task id="LOCAL-00060" summary="220612 스터디14">
+      <created>1655012622295</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1655012622295</updated>
+    </task>
+    <task id="LOCAL-00061" summary="220612 스터디14">
+      <created>1655015156307</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1655015156308</updated>
+    </task>
+    <task id="LOCAL-00062" summary="220612 스터디14">
+      <created>1655022742743</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1655022742743</updated>
+    </task>
+    <task id="LOCAL-00063" summary="220612 스터디14">
+      <created>1655024528287</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1655024528287</updated>
+    </task>
+    <task id="LOCAL-00064" summary="220613 스터디14">
+      <created>1655081307757</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1655081307758</updated>
+    </task>
+    <task id="LOCAL-00065" summary="220613 스터디14">
+      <created>1655081502885</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1655081502885</updated>
+    </task>
+    <task id="LOCAL-00066" summary="220613 스터디14">
+      <created>1655087794709</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1655087794709</updated>
+    </task>
+    <task id="LOCAL-00067" summary="220613 스터디14">
+      <created>1655088713519</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1655088713519</updated>
+    </task>
+    <task id="LOCAL-00068" summary="220613 스터디14">
+      <created>1655088923248</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1655088923248</updated>
+    </task>
+    <task id="LOCAL-00069" summary="220613 스터디14">
+      <created>1655097594283</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1655097594283</updated>
+    </task>
+    <task id="LOCAL-00070" summary="220613 스터디14">
+      <created>1655098837895</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1655098837895</updated>
+    </task>
+    <task id="LOCAL-00071" summary="220614 스터디15">
+      <created>1655185613029</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1655185613030</updated>
+    </task>
+    <task id="LOCAL-00072" summary="220614 스터디15">
+      <created>1655187435231</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1655187435231</updated>
+    </task>
+    <task id="LOCAL-00073" summary="220614 스터디15">
+      <created>1655190207884</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1655190207884</updated>
+    </task>
+    <task id="LOCAL-00074" summary="220614 스터디15">
+      <created>1655194411866</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1655194411866</updated>
+    </task>
+    <task id="LOCAL-00075" summary="220615 스터디15">
+      <created>1655272999369</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1655272999369</updated>
+    </task>
+    <task id="LOCAL-00076" summary="220615 스터디15">
+      <created>1655273078053</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1655273078053</updated>
+    </task>
+    <task id="LOCAL-00077" summary="220615 스터디15">
+      <created>1655273139542</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1655273139542</updated>
+    </task>
+    <task id="LOCAL-00078" summary="220615 스터디15">
+      <created>1655459684187</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1655459684189</updated>
+    </task>
+    <task id="LOCAL-00079" summary="220618 스터디16">
+      <created>1655532449329</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1655532449329</updated>
+    </task>
+    <task id="LOCAL-00080" summary="220618 스터디16">
+      <created>1655548668936</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1655548668936</updated>
+    </task>
+    <task id="LOCAL-00081" summary="220618 스터디16">
+      <created>1655552652624</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1655552652624</updated>
+    </task>
+    <task id="LOCAL-00082" summary="220619 스터디16">
+      <created>1655618204512</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1655618204512</updated>
+    </task>
+    <task id="LOCAL-00083" summary="220619 스터디16">
+      <created>1655618357906</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1655618357906</updated>
+    </task>
+    <task id="LOCAL-00084" summary="220619 스터디16">
+      <created>1655627289172</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1655627289172</updated>
+    </task>
+    <task id="LOCAL-00085" summary="220619 스터디16">
+      <created>1655627818474</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1655627818474</updated>
+    </task>
+    <task id="LOCAL-00086" summary="220621 스터디17">
+      <created>1655787313074</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1655787313075</updated>
+    </task>
+    <task id="LOCAL-00087" summary="220622 스터디17 다시...">
+      <created>1655889430825</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1655889430825</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="220521 스터디8" />
+    <MESSAGE value="220522 스터디8" />
+    <MESSAGE value="220526 스터디9" />
+    <MESSAGE value="220525 스터디9" />
+    <MESSAGE value="220528 스터디10" />
+    <MESSAGE value="220530 스터디10" />
+    <MESSAGE value="220531 스터디11" />
+    <MESSAGE value="220602" />
+    <MESSAGE value="220602 스터디11" />
+    <MESSAGE value="220603 스터디11" />
+    <MESSAGE value="220603 스터디12" />
+    <MESSAGE value="220604 스터디12" />
+    <MESSAGE value="220608 스터디13" />
+    <MESSAGE value="220609 스터디13" />
+    <MESSAGE value="220610 스터디13" />
+    <MESSAGE value="220610" />
+    <MESSAGE value="220611" />
+    <MESSAGE value="220612 스터디14" />
+    <MESSAGE value="220613 스터디14" />
+    <MESSAGE value="220614 스터디15" />
+    <MESSAGE value="220615 스터디15" />
+    <MESSAGE value="220618 스터디16" />
+    <MESSAGE value="220619 스터디16" />
+    <MESSAGE value="220621 스터디17" />
+    <MESSAGE value="220622 스터디17 다시..." />
+    <option name="LAST_COMMIT_MESSAGE" value="220622 스터디17 다시..." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/BJ01717.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/BJ01629_메모리초과.java</url>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BaekJoon_Java$BJ01717.ic" NAME="BJ01717 커버리지 결과" MODIFIED="1652263296250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
