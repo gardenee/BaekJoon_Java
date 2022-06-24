@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5db80abf-f88e-4d57-a94c-f4cf0f74fcd0" name="변경" comment="220624 스터디17">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5db80abf-f88e-4d57-a94c-f4cf0f74fcd0" name="변경" comment="220625 정리">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <list id="02889d93-e1e4-4ea7-9a4c-d6260d8cc67f" name="새 변경 목록" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,13 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652165098867</updated>
-    </task>
-    <task id="LOCAL-00054" summary="220608 스터디13">
-      <created>1654699299898</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1654699299898</updated>
     </task>
     <task id="LOCAL-00055" summary="220609 스터디13">
       <created>1654785534802</created>
@@ -496,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656087108993</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="220625 정리">
+      <created>1656087321866</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1656087321867</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="220525 스터디9" />
     <MESSAGE value="220528 스터디10" />
     <MESSAGE value="220530 스터디10" />
     <MESSAGE value="220531 스터디11" />
@@ -536,7 +535,8 @@
     <MESSAGE value="220623 스터디17" />
     <MESSAGE value="돌아가자..." />
     <MESSAGE value="220624 스터디17" />
-    <option name="LAST_COMMIT_MESSAGE" value="220624 스터디17" />
+    <MESSAGE value="220625 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="220625 정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
