@@ -27,7 +27,7 @@ public class BJ01068_2 {
         if (del != root) search(root);
         System.out.println(answer);
     }
-
+    
     public static void search(int node) {
         if (tree.containsKey(node)) {
             List<Integer> sons = tree.get(node);
