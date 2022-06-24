@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5db80abf-f88e-4d57-a94c-f4cf0f74fcd0" name="변경" comment="220625 정리">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="02889d93-e1e4-4ea7-9a4c-d6260d8cc67f" name="새 변경 목록" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,13 +153,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652165098867</updated>
-    </task>
-    <task id="LOCAL-00055" summary="220609 스터디13">
-      <created>1654785534802</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1654785534803</updated>
     </task>
     <task id="LOCAL-00056" summary="220610 스터디13">
       <created>1654789428831</created>
@@ -496,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656087321867</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="220625 정리">
+      <created>1656087350545</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1656087350545</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
