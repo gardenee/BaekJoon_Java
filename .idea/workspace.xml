@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5db80abf-f88e-4d57-a94c-f4cf0f74fcd0" name="변경" comment="220624 스터디17">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BJ01068_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/BJ01068_2.java" afterDir="false" />
     </list>
     <list id="02889d93-e1e4-4ea7-9a4c-d6260d8cc67f" name="새 변경 목록" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.help">
+  <component name="RunManager" selected="애플리케이션.BJ01068_2">
     <configuration name="이름이 지정되지 않았습니다" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -136,8 +135,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.help" />
         <item itemvalue="애플리케이션.BJ01068_2" />
+        <item itemvalue="애플리케이션.help" />
         <item itemvalue="애플리케이션.BJ01068" />
         <item itemvalue="애플리케이션.BJ09372" />
         <item itemvalue="애플리케이션.BJ03078_2" />
@@ -153,20 +152,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652165098867</updated>
-    </task>
-    <task id="LOCAL-00052" summary="220604 스터디12">
-      <created>1654319291254</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1654319291269</updated>
-    </task>
-    <task id="LOCAL-00053" summary="220608 스터디13">
-      <created>1654698916191</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1654698916192</updated>
     </task>
     <task id="LOCAL-00054" summary="220608 스터디13">
       <created>1654699299898</created>
@@ -497,7 +482,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656059971720</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="220624 스터디17">
+      <created>1656087040902</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1656087040902</updated>
+    </task>
+    <task id="LOCAL-00102" summary="220624 스터디17">
+      <created>1656087108993</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1656087108993</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
