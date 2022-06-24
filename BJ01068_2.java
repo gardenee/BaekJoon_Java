@@ -32,7 +32,11 @@ public class BJ01068_2 {
         if (tree.containsKey(node)) {
             List<Integer> sons = tree.get(node);
             if (sons.size()==1 && sons.get(0)==del) answer++;
-            else for (int son: sons) if (son != del) search(son);
+            else {
+                for (int son: sons) {
+                    if (son != del) search(son);
+                }
+            }
         } else answer++;
     }
 }
