@@ -27,7 +27,7 @@ public class BJ02110 {
         }
         Arrays.sort(houses);
 
-        System.out.println(binarySearch(1, max));
+        System.out.println(binarySearch(1, (max-min)/(C-1)+1));
     }
 
     public static int binarySearch(int start, int end) {
