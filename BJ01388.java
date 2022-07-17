@@ -13,7 +13,7 @@ public class BJ01388 {
 
         for (int i = 0; i < N; i++) {
             String[] temp = sc.nextLine().split("");
-            for (int j = 0; j < M; j++) input[i][j] = temp[j];
+            input[i] = temp;
         }
 
         int answer = 0;
